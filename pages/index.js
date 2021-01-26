@@ -28,7 +28,7 @@ export default function Home() {
       <QuizContainer>
         <Widget>
           <Widget.Header>
-              <h1>buceta</h1>
+              <h1>Minecraft</h1>
           </Widget.Header>
           <Widget.Content>
             <p>bagulho muito louco mano</p>
@@ -36,7 +36,7 @@ export default function Home() {
         </Widget>
         <Widget>
           <Widget.Content>
-            <h1>buceta</h1>
+            <h1>Quizzes</h1>
             <p>bagulho muito louco mano</p>
           </Widget.Content>
         </Widget>
