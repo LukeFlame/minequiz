@@ -9,6 +9,8 @@ import GitHubCorner from '../src/components/GitHubCorner';
 import QuizBackground from '../src/components/QuizBackground';
 import QuizContainer from '../src/components/QuizContainer';
 import QuizLogo from '../src/components/QuizLogo';
+import Input from '../src/components/Input';
+import Button from '../src/components/Button';
 
 export default function Home() {
   const router = useRouter();
@@ -33,16 +35,15 @@ export default function Home() {
                 router.push(`/quiz?name=${name}`);
               }}
               >
-                <input
-                  onChange={(i) => {
-                    setName(i.target.value);
-                  }}
-                  type="text"
+                <Input
+                  name="nomeDoUsuario"
+                  onChange={(i) => setName(i.target.value)}
                   placeholder="Nome"
+                  value={name}
                 />
-                <button type="submit" disabled={name.length === 0}>
+                <Button type="submit" disabled={name.length === 0}>
                   Jogar
-                </button>
+                </Button>
               </form>
             </Widget.Content>
           </Widget>
