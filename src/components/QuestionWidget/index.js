@@ -102,8 +102,6 @@ function QuestionWidget({
             Alternativa selecionada:
             {(selectedAlternative >= 0) ? selectedAlternative + 1 : ''}
           </p>
-          {isFormSubmited && isCorrect && <p>Correto!</p>}
-          {isFormSubmited && !isCorrect && <p>Incorreto!</p>}
         </AlternativeForm>
       </Widget.Content>
     </Widget>

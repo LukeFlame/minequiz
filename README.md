@@ -1,78 +1,136 @@
-# Example app with styled-components
+🇺🇲 README in english<br>
+🇧🇷 <a href="https://github.com/LukeFlame/dsdelivery-sds2/blob/main/READMEpt.md">README em português</a>
 
-This example features how you use a different styling solution than [styled-jsx](https://github.com/zeit/styled-jsx) that also supports universal styles. That means we can serve the required styles for the first render within the HTML and then load the rest in the client. In this case we are using [styled-components](https://github.com/styled-components/styled-components).
+<p align="center">
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/798202787166421053/deliveryman3x.png" width="35%" alt="DS Delivery"/>
+</p>
 
-For this purpose we are extending the `<Document />` and injecting the server side rendered styles into the `<head>`, and also adding the `babel-plugin-styled-components` (which is required for server side rendering). Additionally we set up a global [theme](https://www.styled-components.com/docs/advanced#theming) for styled-components using NextJS custom [`<App>`](https://nextjs.org/docs/advanced-features/custom-app) component.
+<h1 align="center">DevSuperior Week #2, project "DS Delivery".</h1>
 
-## Deploy your own
+---
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+<h2 align="center">About 📖</h2>
+   
+   <p align="center">
+      The DS Delivery project was developed during DevSuperior Week #2, by <a href="https://devsuperior.com.br">DevSuperior</a>, from January 4th to 10th.<br>
+      This project covers the entire fullstack ecosystem, containing backend, web and mobile front end and even automatic deployment in the cloud.<br>
+      In it, a pizzeria site is simulated, where it is possible to place orders, choose locations, receive the delivery route, among several features. 😀<br>
+   </p><br>
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-styled-components&project-name=with-styled-components&repository-name=with-styled-components)
+---
 
-## How to use
+<h2 align="center">Previews 🖥️📱</h2>
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+   <p align="center">
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/798595629596803092/ezgif-4-eba249d827e4.gif" width="90%" alt="DS Delivery Demo"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/798577129536880670/ezgif-6-e90d9d3aa776.gif" width="40%" alt="DS Delivery Demo"/>
+   </p>
 
-```bash
-npx create-next-app --example with-styled-components with-styled-components-app
-# or
-yarn create next-app --example with-styled-components with-styled-components-app
-```
+<h2 align="center">Layout 🎨</h2>
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+   <p align="center">
+      The layout was developed by <a href="https://github.com/washingtonsoares">
+      Washington Soares</a>, you can access the figma here:
+      
+   - <a href="https://www.figma.com/file/LAIvIzyaJsSl2A9NMrnR7W/DSDeliver01">Layout</a> 🖥️ 📱
+   </p><br>
 
-### Try it on CodeSandbox
+---
 
-[Open this example on CodeSandbox](https://codesandbox.io/s/github/vercel/next.js/tree/canary/examples/with-styled-components)
+<h2 align="center">Functionalities 🛠️</h2>
 
-### Notes
+- Choice of products with pleasant appearance;
+- Ultra fast address search map;
+- Place orders with different product possibilities;
+- View orders from oldest to newest;
+- Mark order as delivered, etc.;
+- Front-web using SPA;
+- Responsive on both the web and mobile.<br>
 
-When wrapping a [Link](https://nextjs.org/docs/api-reference/next/link) from `next/link` within a styled-component, the [as](https://styled-components.com/docs/api#as-polymorphic-prop) prop provided by `styled` will collide with the Link's `as` prop and cause styled-components to throw an `Invalid tag` error. To avoid this, you can either use the recommended [forwardedAs](https://styled-components.com/docs/api#forwardedas-prop) prop from styled-components or use a different named prop to pass to a `styled` Link.
+---
 
-<details>
-<summary>Click to expand workaround example</summary>
-<br />
+<h2 align="center">Technology 🚀</h2>
 
-**components/StyledLink.js**
+- [Node.js](https://nodejs.org/en/)
+- [React](https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
+- [Sprint Boot](https://spring.io/projects/spring-boot)
+- [PostgreSQL](https://www.postgresql.org/)
+- [Java](https://docs.oracle.com/en/java/javase/11/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+- [HTML](https://html.com/)<br>
 
-```javascript
-import Link from 'next/link'
-import styled from 'styled-components'
+---
 
-const StyledLink = ({ as, children, className, href }) => (
-  <Link href={href} as={as} passHref>
-    <a className={className}>{children}</a>
-  </Link>
-)
+<h2 align="center">Challenges learned this week 🤯</h2>
 
-export default styled(StyledLink)`
-  color: #0075e0;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
+   <p>
+      Although it was only a week, I learned to organize my time and carry out projects with determination and focus. I learned several notions of design, project organization, database, known frameworks, etc. I am very grateful to DevSuperior for providing such an event, it was an incredible experience!<br>
+   </p><br>
 
-  &:hover {
-    color: #40a9ff;
-  }
+---
 
-  &:focus {
-    color: #40a9ff;
-    outline: none;
-    border: 0;
-  }
-`
-```
+<h2 align="center">How to use 🤔</h2>
 
-**pages/index.js**
+   **Tip**: you can access the website <a href="https://lukeflsds2.netlify.app/" target="_blank">here</a>.
 
-```javascript
-import StyledLink from '../components/StyledLink'
+   ```
+   - Clone this repository:
+   $ git clone https://github.com/LukeFlame/dsdelivery-sds2.git
 
-export default () => (
-  <StyledLink href="/post/[pid]" forwardedAs="/post/abc">
-    First post
-  </StyledLink>
-)
-```
+   - Enter the directory:
+   $ cd dsdelivery-sds2
 
-</details>
+
+   In front-web
+
+   - Install the dependencies:
+   $ npm install
+
+   - Edit and rename the .env.example file
+
+   - Run the application:
+   $ npm start
+
+
+   In front-mobile
+
+   - Install the dependencies:
+   $ npm install
+
+   - Run the application:
+   $ npm start
+
+   - Use an emulator or download Expo on your smartphone
+
+
+   In backend
+
+   - Install and configure the PostgreSQL database
+
+   - Import as a Maven project into your Java IDE
+
+   - Create the tables with the code in the data.sql file in resources
+
+   - Fill in the information for the application.properties files
+
+   - Run as Spring Boot application
+
+   ```
+
+---
+
+<h2 align="center">License 📝</h2>
+
+<p align="center">
+   This repository is under MIT license. You can see the <a href="https://github.com/LukeFlame/dsdelivery-sds2/blob/main/LICENSE" >LICENSE</a> file for more details.
+</p><br>
+
+---
+
+> This project was developed by **[@LukeFl_](https://github.com/LukeFlame)**, with instructors **[@Nelio Alves](https://github.com/acenelio)** and **[@Washington Soares](https://github.com/washingtonsoares)**, during **[DevSuperior Week #2](https://devsuperior.com.br/)**. <br> 
+> If it helped you, give ⭐, it will help me too! <br>
+
+---
+
