@@ -1,20 +1,20 @@
 🇺🇲 README in english<br>
-🇧🇷 <a href="https://github.com/LukeFlame/dsdelivery-sds2/blob/main/READMEpt.md">README em português</a>
+🇧🇷 <a href="https://github.com/LukeFlame/minequiz/blob/main/READMEpt.md">README em português</a>
 
 <p align="center">
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/798202787166421053/deliveryman3x.png" width="35%" alt="DS Delivery"/>
+      <img src="https://www.quizexpo.com/wp-content/uploads/2020/07/cover-2-850x491.jpg" width="35%" alt="Mine Quiz"/>
 </p>
 
-<h1 align="center">DevSuperior Week #2, project "DS Delivery".</h1>
+<h1 align="center">Alura's React NextJs Immersion, project "Mine Quiz".</h1>
 
 ---
 
 <h2 align="center">About 📖</h2>
    
    <p align="center">
-      The DS Delivery project was developed during DevSuperior Week #2, by <a href="https://devsuperior.com.br">DevSuperior</a>, from January 4th to 10th.<br>
-      This project covers the entire fullstack ecosystem, containing backend, web and mobile front end and even automatic deployment in the cloud.<br>
-      In it, a pizzeria site is simulated, where it is possible to place orders, choose locations, receive the delivery route, among several features. 😀<br>
+      The Mine Quiz project was developed during <a href="https://www.alura.com.br/">Alura</a>'s React NextJs Immersion, from the 25th to the 29th of January.<br>
+      This project covers a large content of frond end, with concepts of Javascript, React and NextJs, containing construction of SPA pages, consumption of apis and Styled Components.<br>
+      In the project, we built a quiz with alternatives and integrated support for other quizzes on the same site, making it possible to play quizzes from other people. 😀<br>
    </p><br>
 
 ---
@@ -22,100 +22,70 @@
 <h2 align="center">Previews 🖥️📱</h2>
 
    <p align="center">
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/798595629596803092/ezgif-4-eba249d827e4.gif" width="90%" alt="DS Delivery Demo"/>
-      <img src="https://cdn.discordapp.com/attachments/787821695486263399/798577129536880670/ezgif-6-e90d9d3aa776.gif" width="40%" alt="DS Delivery Demo"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/804913182207901746/gif1.gif" width="90%" alt="Mine Quiz Demo"/>
+      <img src="https://cdn.discordapp.com/attachments/787821695486263399/804913169545560094/gi2.gif" width="90%" alt="Mine Quiz Demo 2"/>
    </p>
 
 <h2 align="center">Layout 🎨</h2>
 
    <p align="center">
-      The layout was developed by <a href="https://github.com/washingtonsoares">
-      Washington Soares</a>, you can access the figma here:
+      The layout was developed by <a href="https://www.alura.com.br/">
+      Alura</a>, you can access the figma here:
       
-   - <a href="https://www.figma.com/file/LAIvIzyaJsSl2A9NMrnR7W/DSDeliver01">Layout</a> 🖥️ 📱
+   - <a href="https://www.figma.com/file/cg1MIzSRRss8ggpypQbmdD/AluraQuiz?node-id=0%3A1">Layout</a> 🖥️ 📱
    </p><br>
 
 ---
 
 <h2 align="center">Functionalities 🛠️</h2>
 
-- Choice of products with pleasant appearance;
-- Ultra fast address search map;
-- Place orders with different product possibilities;
-- View orders from oldest to newest;
-- Mark order as delivered, etc.;
-- Front-web using SPA;
-- Responsive on both the web and mobile.<br>
+- Animations that make everything smoother;
+- Single Page Application, looking like an application really;
+- Play quiz by putting your name, with the results at the end;
+- Play anyone's quiz on the same site;
+- Create questions by editing the JSON file;
+- Edit images, colors and styles easily by editing JSON;
+- Responsive both on the web and on mobile.<br>
 
 ---
 
 <h2 align="center">Technology 🚀</h2>
 
-- [Node.js](https://nodejs.org/en/)
 - [React](https://reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [Sprint Boot](https://spring.io/projects/spring-boot)
-- [PostgreSQL](https://www.postgresql.org/)
-- [Java](https://docs.oracle.com/en/java/javase/11/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
-- [HTML](https://html.com/)<br>
+- [NextJs](https://nextjs.org/)
+- [JavaScript](https://www.javascript.com/)
+- [Styles Components](https://styled-components.com/)
+- [Vercel](https://vercel.com/dashboard)
 
 ---
 
-<h2 align="center">Challenges learned this week 🤯</h2>
+<h2 align="center">Challenges learned this week</h2>
 
    <p>
-      Although it was only a week, I learned to organize my time and carry out projects with determination and focus. I learned several notions of design, project organization, database, known frameworks, etc. I am very grateful to DevSuperior for providing such an event, it was an incredible experience!<br>
+      It was a great experience with the front end in this immersion, I learned fundamentals and fundamental techniques to build websites in the right way, I solved several proposed challenges that cost me several hours but rewarded me accordingly. NextJs has a lot of amazing features, I haven't been able to see them all yet, but I've already been interested in them!<br>
    </p><br>
 
 ---
 
 <h2 align="center">How to use 🤔</h2>
 
-   **Tip**: you can access the website <a href="https://lukeflsds2.netlify.app/" target="_blank">here</a>.
+   **Dica**: you can access the website <a href="https://minequiz.lukeflame.vercel.app/" target="_blank">here</a>.
 
    ```
    - Clone this repository:
-   $ git clone https://github.com/LukeFlame/dsdelivery-sds2.git
+   $ git clone https://github.com/LukeFlame/minequiz.git
 
    - Enter the directory:
-   $ cd dsdelivery-sds2
-
-
-   In front-web
-
-   - Install the dependencies:
-   $ npm install
-
-   - Edit and rename the .env.example file
-
-   - Run the application:
-   $ npm start
-
-
-   In front-mobile
+   $ cd minequiz
 
    - Install the dependencies:
    $ npm install
 
    - Run the application:
-   $ npm start
+   $ npm run dev
 
-   - Use an emulator or download Expo on your smartphone
-
-
-   In backend
-
-   - Install and configure the PostgreSQL database
-
-   - Import as a Maven project into your Java IDE
-
-   - Create the tables with the code in the data.sql file in resources
-
-   - Fill in the information for the application.properties files
-
-   - Run as Spring Boot application
+   - Open in the browser at the following ip:
+   - http://localhost:3000
 
    ```
 
@@ -124,12 +94,12 @@
 <h2 align="center">License 📝</h2>
 
 <p align="center">
-   This repository is under MIT license. You can see the <a href="https://github.com/LukeFlame/dsdelivery-sds2/blob/main/LICENSE" >LICENSE</a> file for more details.
+   This repository is under MIT license. You can see the <a href="https://github.com/LukeFlame/minequiz/blob/main/LICENSE" >LICENSE</a> file for more details.
 </p><br>
 
 ---
 
-> This project was developed by **[@LukeFl_](https://github.com/LukeFlame)**, with instructors **[@Nelio Alves](https://github.com/acenelio)** and **[@Washington Soares](https://github.com/washingtonsoares)**, during **[DevSuperior Week #2](https://devsuperior.com.br/)**. <br> 
+> This project was developed by **[@LukeFl_](https://github.com/LukeFlame)**, with instructors **[@Mario Souto](https://twitter.com/omariosouto)**, **[@Juliana Amoasei](https://twitter.com/aquijuz)** and **[@Paulo Silveira](https://twitter.com/paulo_caelum)**, during **[Alura's React NextJs Immersion](https://www.alura.com.br/)**. <br> 
 > If it helped you, give ⭐, it will help me too! <br>
 
 ---

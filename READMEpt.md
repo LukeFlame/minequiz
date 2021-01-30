@@ -1,4 +1,4 @@
-🇺🇲 <a href="https://github.com/LukeFlame/dsdelivery-sds2/blob/main/README.md">README in english</a><br>
+🇺🇲 <a href="https://github.com/LukeFlame/minequiz/blob/main/README.md">README in english</a><br>
 🇧🇷 README em português
 
 <p align="center">
@@ -94,7 +94,7 @@
 <h2 align="center">Licença 📝</h2>
 
 <p align="center">
-   Este repositório está sob licença MIT. Você pode ver o arquivo <a href="https://github.com/LukeFlame/dsdelivery-sds2/blob/main/LICENSE" >LICENSE</a> para mais detalhes.
+   Este repositório está sob licença MIT. Você pode ver o arquivo <a href="https://github.com/LukeFlame/minequiz/blob/main/LICENSE" >LICENSE</a> para mais detalhes.
 </p><br>
 
 ---
