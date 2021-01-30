@@ -4,30 +4,69 @@
     "description": "Teste os seus conhecimentos em Minecraft, o mundo quadrado com infinitas possibilidades.",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
-        "answer": 2,
+        "image": "https://i.imgur.com/H04p18v.jpg",
+        "title": "Qual a altura máxima que um bloco pode ser colocado?",
+        "description": "Considerando Minecraft sem mods e até a versão 1.16 Java Edition.",
+        "answer": 1,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Camada 118",
+          "Camada 256",
+          "Camada 64",
+          "Camada 512"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
+        "image": "https://i.imgur.com/NEzTbzk.jpg",
+        "title": "Qual foi o primeiro nome do Minecraft?",
+        "description": "Usado ainda na época de desenvolvimento, foi substituido por 'Minecraft' logo após.",
+        "answer": 2,
+        "alternatives": [
+           "Mine and Craft",
+           "Minecraft: The Cave Game",
+           "Cave Game",
+           "Blockcraft"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/N3irAWZ.jpg",
+        "title": "Explosões debaixo d'água provocam qual efeito?",
+        "description": "Considerando explosão de TNT, Creeper ou Bola de Ghast.",
         "answer": 0,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Dá dano e não quebra blocos",
+           "Dá dano e quebra blocos normalmente",
+           "Não dá dano e quebra poucos blocos",
+           "Não dá dano nem quebra blocos"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/628ywi0.gif",
+        "title": "Qual duração do dia no Minecraft em minutos reais?",
+        "description": "O dia no Minecraft começa e acaba algumas vezes por hora.",
+        "answer": 1,
+        "alternatives": [
+           "25 minutos",
+           "20 minutos",
+           "5 minutos",
+           "35 minutos"
+        ]
+      },
+      {
+        "image": "https://i.imgur.com/02onSLr.jpg",
+        "title": "Quais mobs morrem após atacar um jogador?",
+        "description": "Considerando que o jogador não contra ataque.",
+        "answer": 3,
+        "alternatives": [
+           "Peixe e Jaguatirica",
+           "Só o Creeper",
+           "Traça e Wither",
+           "Abelha e Creeper"
         ]
       }
     ],
     "external": [
-      ""
+      "https://aluraquizpokemon.cesarrobertopg.vercel.app/",
+      "https://darksouls-quiz.gui-leandro.vercel.app/"
     ],
     "theme": {
       "colors": {
