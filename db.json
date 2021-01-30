@@ -65,8 +65,9 @@
       }
     ],
     "external": [
-      "https://aluraquizpokemon.cesarrobertopg.vercel.app/",
-      "https://darksouls-quiz.gui-leandro.vercel.app/"
+      "https://quiz-games.gabrielwolf-dev.vercel.app/",
+      "https://darksouls-quiz.gui-leandro.vercel.app/",
+      "https://quiz-games.gabrielwolf-dev.vercel.app/"
     ],
     "theme": {
       "colors": {
