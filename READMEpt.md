@@ -69,8 +69,6 @@
 
 <h2 align="center">Como usar 🤔</h2>
 
-   **Dica**: você pode acessar o site <a href="https://minequiz.lukeflame.vercel.app/" target="_blank">aqui</a>.
-
    ```
    - Clone este repositório:
    $ git clone https://github.com/LukeFlame/minequiz.git
